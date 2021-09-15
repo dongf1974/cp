@@ -33,9 +33,9 @@ for i in range(total.l):
     j += 1
 for i in range(total.m):
     m.add(books[j])
-    j += 1\
+    j += 1
 for i in range(total.s):
     s.add(books[j])
-    j += 1    
+    j += 1
 
 print(l.m + l.s + m.l + m.s - min(m.l, l.m))
