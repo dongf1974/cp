@@ -52,7 +52,10 @@ print(l.m + l.s + m.l + m.s - min(m.l, l.m))
 #             'self.m', 'self.s'
 # problem: logic
 #             'if...elif...else'
-# problem: complex logic of output
+# problem: too complex logic
+#             logic of output is too complex
+# problem: usage of range, and for
+#             improve logic of loop (no fix)
 # problem: coding style
 #             meaningful naming (no fix)
 #
