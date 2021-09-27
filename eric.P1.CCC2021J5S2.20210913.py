@@ -29,6 +29,6 @@ for i in range(amount):
 
 count=0
 for s in range(column):
-    for s in range(row):
+    for t in range(row):
         if spread[s][t] % 2 == 0:
             count+=1
