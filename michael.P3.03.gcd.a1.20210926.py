@@ -21,7 +21,7 @@ if b>a:
   a=b
   b=temp
 
-def gcd(a, b):
+def gcd(a,b):
   while True:
     r=a%b
     if r==0:
