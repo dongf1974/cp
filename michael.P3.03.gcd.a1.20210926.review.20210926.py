@@ -56,6 +56,7 @@ def gcd(a,b):
 
 #
 # problem: the logic is not Euclidean algorithm exactly
+#             gcd(a,b)=gcd(b,r)
 #
 
 a=int(input())

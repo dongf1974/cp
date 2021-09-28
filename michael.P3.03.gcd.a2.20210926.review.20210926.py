@@ -19,7 +19,7 @@ b=int(input())
 d=gcd(a,b)
 print(d)
 
-def gcd(a, b) :
+def gcd(a,b):
   r=a%b
   if r==0:
     gcd=b
