@@ -15,11 +15,8 @@
 
 a=int(input())
 b=int(input())
-temp=0
-if b>a:
-  temp=a
-  a=b
-  b=temp
+d=gcd(a,b)
+print(d)
 
 def gcd(a,b):
   r=a%b
