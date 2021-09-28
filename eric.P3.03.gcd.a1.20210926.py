@@ -14,7 +14,7 @@
 #
 
 r=0
-def gcd(a, b) :
+def gcd(a, b):
   while r != 0:
     if r = 0:
       break
