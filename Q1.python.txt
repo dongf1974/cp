@@ -1,0 +1,290 @@
+------------------------------------
+C1. range()
+------------------------------------
+------------------------------------
+(a) range(), start=0
+------------------------------------
+input
+    <n> (is integer)
+output
+    0
+    1
+    ...
+    <n>
+note
+    1. n>=0
+    2. implement at least 1 solution
+      a) generate range start from 0 to some number
+      b) other implementation as you like
+
+------------------------------------
+(b) range(), start!=0
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    <n>
+    <n+1>
+    ...
+    <m>
+note
+    1. n, m are in same line.
+    2. n<=m
+    3. n, m may be less than 0.
+    4. implement at least 2 solutions
+      a) generate range start from 0 to some number
+      b) generate range strat from n to some number
+      c) other implementation as you like
+
+------------------------------------
+(c) range(), step>1
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    <n>
+    <n+2>
+    ...
+    <m> / or <m-1>
+note
+    1. n, m are in same line.
+    2. n<=m
+    3. n, m may be less than 0.
+    4. implement at least 2 solutions
+      a) generate range start from 0 to some number
+      b) generate range start from n to some number, and step is 2
+      c) other implementation as you like
+
+------------------------------------
+(d) range(), step<0
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    <n>
+    <n-3>
+    ...
+    <m> / or <m+1> / or <m+2>
+note
+    1. n, m are in same line.
+    2. n>=m
+    3. n, m may be less than 0.
+    4. implement at least 2 solutions
+      a) generate range start from 0 to some number
+      b) generate range start from n to some number, and step is -3
+      c) other implementation as you like
+
+
+
+------------------------------------
+C2. string
+------------------------------------
+------------------------------------
+(a) sub string, left (first)
+------------------------------------
+input
+    <s> (is text)
+    <n> (is integer)
+output
+    <first n characters of s>
+note
+    1. n>=1 (n>0), and n<=length(s)
+    2. implement at least 1 solution
+      a) generate sub string of s, and output the string
+      b) other implement as you like (E.g, output character one by one)
+
+------------------------------------
+(b) sub string, right
+------------------------------------
+input
+    <s> (is text)
+    <n> (is integer)
+output
+    <characters of s, start from the No. n character>
+note
+    1. The first character is the No. 0 character.
+    2. n>=0, and n<length(s)
+    3. implement at least 1 solution
+      a) generate sub string of s, and output the string
+      b) other implement as you like (E.g, output character one by one)
+
+------------------------------------
+(c) sub string, right (last)
+------------------------------------
+input
+    <s> (is text)
+    <n> (is integer)
+output
+    <last n characters of s>
+note
+    1. n>=1 (n>0), and n<=length(s)
+    2. implement at least 1 solution
+      a) generate sub string of s, and output the string
+      b) other implement as you like (E.g, output character one by one)
+
+------------------------------------
+(d) sub string, start and end
+------------------------------------
+input
+    <s> (is text)
+    <n> <m> (both are integer)
+output
+    <characters of s, start from the No. n character, end BEFORE the No. m character>
+note
+    1. The first character is the No. 0 character.
+    2. n, m are in same line.
+    3. n>=0, and n<length(s)
+    4. m>n, and m<=length(s)
+    5. implement at least 1 solution
+      a) generate sub string of s, and output the string
+      b) other implement as you like (E.g, output character one by one)
+
+------------------------------------
+(e) sub string, start and length
+------------------------------------
+input
+    <s> (is text)
+    <n> <m> (both are integer)
+output
+    <m characters of s, start from the No. n character>
+note
+    1. The first character is the No. 0 character.
+    2. n, m are in same line.
+    3. n>=0, and n<length(s)
+    4. m>=1 (n>0), and m<=length(s)-n
+    5. implement at least 1 solution
+      a) generate sub string of s, and output the string
+      b) other implement as you like (E.g, output character one by one)
+
+------------------------------------
+(f) character, loop, ASCII
+------------------------------------
+input
+    <s> (is text)
+    <n> <m> (both are integer)
+output
+    <number of lowercase characters of s>
+    <number of uppercase characters of s>
+    <number of lowercase characters of s, start from the No. n character, end BEFORE the No. m character>
+    <number of uppercase characters of s, start from the No. n character, end BEFORE the No. m character>
+    <s, to the characters start from the No. n character, end BEFORE the No. m character, all lowercase characters are transformed to uppercase>
+note
+    1. The first character is the No. 0 character.
+    2. n, m are in same line.
+    3. n>=0, and n<length(s)
+    4. m>n, and m<=length(s)
+
+
+
+------------------------------------
+C3. list
+------------------------------------
+------------------------------------
+(a) list, init with zero
+------------------------------------
+input
+    <n> (is integer)
+output
+    [0, 0, ..., 0]
+note
+    1. n>=1 (n>0)
+    2. Generate list with n elements, all elements are 0.
+    3. print(a_list) could output the whole list.
+
+------------------------------------
+(b) list, init with some regular
+------------------------------------
+input
+    <n> (is integer)
+output
+    [0, 1, ..., <n-1>]
+note
+    1. n>=1 (n>0)
+    2. Generate list with n elements, the value of each element is 0, 1, ..., n-1.
+    3. print(a_list) could output the whole list.
+
+------------------------------------
+(c) list, init with some regular
+------------------------------------
+input
+    <n> (is integer)
+output
+    [1, 2, ..., <n>]
+note
+    1. n>=1 (n>0)
+    2. Generate list with n elements, the value of each element is 1, 2, ..., n.
+    3. print(a_list) could output the whole list.
+
+------------------------------------
+(d) list of list, init with empty list
+------------------------------------
+input
+    <n> (is integer)
+output
+    [[], [], ..., []]
+note
+    1. n>=1 (n>0)
+    2. Generate list of list, the list has n elements, that each element is also a list , and is empty list.
+    3. print(a_list) could output the whole list.
+
+------------------------------------
+(e) list of list, init with 0
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    [[0, 0, ..., 0], [0, 0, ..., 0], ..., [0, 0, ..., 0]]
+note
+    1. n, m are in same line
+    2. n>=1 (n>0)
+    3. m>=1 (m>0)
+    4. Generate list of list, the list has n elements, that each element is also a list, and is a list with m elements, all elements are 0.
+    5. print(a_list) could output the whole list.
+
+------------------------------------
+(f) list of list, init with some regular
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    [[0, 1, ..., <m-1>], [0, 1, ..., <m-1>], ..., [0, 1, ..., <m-1>]]
+note
+    1. n, m are in same line
+    2. n>=1 (n>0)
+    3. m>=1 (m>0)
+    4. Generate list of list, the list has n elements, that each element is also a list, and is a list with m elements, the value of each element is 1, 2, ..., m-1.
+    5. print(a_list) could output the whole list.
+
+------------------------------------
+(g) list of list, init with some regular
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    [[0, 0, ..., 0], [1, 1, ..., 1], ..., [<n-1>, <n-1>, ..., <n-1>]]
+note
+    1. n, m are in same line
+    2. n>=1 (n>0)
+    3. m>=1 (m>0)
+    4. Generate list of list, the list has n elements, that each element is also a list, and is a list with m elements, the value of each element is the number of the list start from 0.
+    5. print(a_list) could output the whole list.
+
+------------------------------------
+(h) list of list, init with some regular
+------------------------------------
+input
+    <n> <m> (both are integer)
+output
+    [[1, 2, ..., <m>], [2, 3, ..., <m+1>], ..., [<n>, <n+1>, ..., <k>]]
+    <k>
+note
+    1. n, m are in same line
+    2. n>=1 (n>0)
+    3. m>=1 (m>0)
+    4. Generate list of list, the list has n elements, that each element is also a list, and is a list with m elements, the value of each element is the number as shown.
+    5. To the last element of the list, which is also a list, k is the last element of it. Output k by access the element in the list of list.
+    6. print(a_list) could output the whole list.
+
+------------------------------------
+2021-10-04
+------------------------------------
