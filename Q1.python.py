@@ -156,9 +156,9 @@ lowercase = 0
 uppercase = 0
 for c in s :
     if c>='a' and c<='z' :
-        lowercase = lowercase+1
+        lowercase += 1
     elif c>='A' and c<='Z' :
-        uppercase = uppercase+1
+        uppercase += 1
 print(lowercase)
 print(uppercase)
 
@@ -166,9 +166,9 @@ lowercase = 0
 uppercase = 0
 for c in s[n:m] :
     if c.islower() :
-        lowercase = lowercase+1
+        lowercase += 1
     elif c.isupper() :
-        uppercase = uppercase+1
+        uppercase += 1
 print(lowercase)
 print(uppercase)
 
