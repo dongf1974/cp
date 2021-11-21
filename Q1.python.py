@@ -39,8 +39,9 @@ for i in range(n+1) :
 # (b) range(), start!=0
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert m>=n
 
 for i in range(n, m+1) :
@@ -50,8 +51,9 @@ for i in range(n, m+1) :
 # (c) range(), step>1
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert m>=n
 
 for i in range(n, m+1, 2) :
@@ -61,8 +63,9 @@ for i in range(n, m+1, 2) :
 # (d) range(), step<0
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert m<=n
 
 for i in range(n, m-1, -3) :
@@ -111,8 +114,9 @@ print(s[len(s)-n:])
 # ------------------------------------
 
 s = input()
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>=0
 assert n<len(s)
 assert m>n
@@ -125,8 +129,9 @@ print(s[n:m])
 # ------------------------------------
 
 s = input()
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>=0
 assert n<len(s)
 assert m>0
@@ -139,8 +144,9 @@ print(s[n:n+m])
 # ------------------------------------
 
 s = input()
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>=0
 assert n<len(s)
 assert m>n
@@ -150,7 +156,7 @@ lowercase = 0
 uppercase = 0
 for c in s :
     if c>='a' and c<='z' :
-        lowercase = lowercase+1A
+        lowercase = lowercase+1
     elif c>='A' and c<='Z' :
         uppercase = uppercase+1
 print(lowercase)
@@ -217,8 +223,9 @@ print(l)
 # (e) list of list, init with 0
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>0
 assert m>0
 
@@ -229,8 +236,9 @@ print(l)
 # (f) list of list, init with some regular
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>0
 assert m>0
 
@@ -241,8 +249,9 @@ print(l)
 # (g) list of list, init with some regular
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>0
 assert m>0
 
@@ -253,8 +262,9 @@ print(l)
 # (h) list of list, init with some regular
 # ------------------------------------
 
-n = int(input())
-m = int(input())
+tokens = input().split()
+n = int(tokens[0])
+m = int(tokens[1])
 assert n>0
 assert m>0
 
